@@ -92,10 +92,6 @@ button[type="submit"] {
   margin-left: 20px !important; /* Menambahkan jarak antara tombol dan kolom input */
 }
 
-
-
-
-
 .task-title, .task-count {
   font-family: Tahoma, sans-serif; /* Mengatur font family */
 }
@@ -118,9 +114,8 @@ button[type="submit"] {
 
 .by-text {
   font-family: "Courier New", Courier, monospace;
-  font-size: 14px; /* Mengatur ukuran font */
+  font-size: 13px; /* Mengatur ukuran font */
 }
-
 
 .todo-container {
   background-color: rgba(128, 128, 128, 0.8); /* Mengatur warna latar belakang abu-abu transparan */
