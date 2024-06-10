@@ -18,9 +18,6 @@ export const useTaskStore = defineStore('task', {
     }
   },
   getters: {
-    tasksFiltered: (state) => (completedOnly) => {
-      return completedOnly ? state.tasks.filter(task => !task.completed) : state.tasks;
-    },
     incompleteTaskCount: (state) => {
       return state.tasks.filter(task => !task.completed).length;
     }
